@@ -12,7 +12,7 @@ app.get('/segundarota', (req, res) => {
 
 app.get('/prime-day/:produto', (req, res) => {
 req.params;
-res.send(req.params.produto)
+
 res.send(`o produto comprado foi: ${req.params.produto}`);  
 })
 
